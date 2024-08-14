@@ -154,7 +154,7 @@
   .caption-image3 {
     width: 100%;
     height: 75%;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/50/Xbox_Logo_2012.png');
+    background-image: url('landing-page.png');
     background-size: cover; /* Ensures the image covers the div */
     background-position: center; /* Centers the image */
   }
