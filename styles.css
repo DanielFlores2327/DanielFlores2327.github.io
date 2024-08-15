@@ -188,9 +188,10 @@
       scroll-margin-top: 18vh;
   }
   .items {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: start;
   }
   .first {
       flex: 1;
@@ -218,6 +219,9 @@
   .second {
       flex: 2;
       margin-left: -5%; 
+  }
+  .second p {
+    word-wrap: break-word;
   }
   .green {
     font-size: 1.5rem;
