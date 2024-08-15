@@ -206,7 +206,7 @@
   @media (min-width: 600px){
     .first img {
       position: relative;
-      left: 5rem;
+      left: 10rem;
     }
     .fort {
       font-size: 1.5rem;
