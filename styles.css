@@ -194,11 +194,13 @@ section {
   width: 50%;
   float: left;
   padding: 20px;
+  max-height: 100%;
 }
 
 .first img {
   max-width: 100%;
   height: auto;
+  max-height: 100%;
 }
 @media (min-width: 600px){
   .first img {
