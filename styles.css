@@ -194,6 +194,8 @@
   }
   .first {
       flex: 1;
+      position: absolute;
+      left: 10rem;
   }
   
   .first img {
