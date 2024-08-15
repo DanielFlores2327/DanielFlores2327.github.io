@@ -190,7 +190,7 @@
   .items {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .first {
       flex: 1;
@@ -204,6 +204,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-right: 20px;
   }
   @media (min-width: 600px){
     .first img {
